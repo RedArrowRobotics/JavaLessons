@@ -107,19 +107,17 @@ Let's talk about one more thing. What if we want to have the person running the 
 ```Java
 Scanner input = new Scanner(System.in);
 
-// read in inputsA
-System.out.println("What is your first name? ");
-String name1 = input.readLine();
-System.out.println("What is your last name? ");
-String name2 = input.readLine();
+// read in inputs
+System.out.println("What is your name?");
+String name = input.nextLine();
 
 // print output
-System.out.println("Your name is " + name1 + " " + name2);
+System.out.println("Your name is " + name);
 ```
 
-Do you see that `Scanner` is a type? And we make a variable with type `Scanner` and name it input. It turns out that types in Java can do more than just hold data. They can also do things. Just like a `String` can concatenate and an `int` can add, a `Scanner` can readLine.
+Do you see that `Scanner` is a type? The first line makes a variable with type `Scanner` named `input`, and set it to the value of `new Scanner(System.in)` (but for now, we'll ignore this last part - just know it's required to make our scanner work). It turns out that types in Java can do more than just hold data. They can also do things. Just like a `String` can concatenate and an `int` can add, a `Scanner` can nextLine.
 
-`readLine` waits for you to type something in. As soon as you press the 'enter' key, it returns whatever you typed as a String. Then, we set that to our `name1` String (or `name2` String).
+`nextLine` waits for you to type something in. As soon as you press the 'enter' key, it returns whatever you typed as a String. Then, we set that to our `name1` String (or `name2` String).
 
 #### Try it out!
 
@@ -128,7 +126,7 @@ Write a program that:
 * Print the input
 * Do a math problem 
 * Print the result of the math problem
-Be creative, if you want to incorporate anything else that you know how to do, feel free to do so 🙂
+Be creative! If you want to incorporate anything else that you know how to do, feel free to do so 🙂
 
 
 ## Online Resources
