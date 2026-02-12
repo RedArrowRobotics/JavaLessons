@@ -30,7 +30,7 @@ for (int i = 0; i < 3; i = i + 1) {
 
 ## ArrayList
 
-Arrays are fundamental, but in many Java programs you'll often use `ArrayList`.
+Arrays are fundamental, but Java programs use `ArrayList` more often.
 
 `ArrayList` is a resizable list:
 * arrays have fixed size (`new String[3]`)

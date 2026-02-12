@@ -36,26 +36,45 @@ public class TeamMember {
     String role;
 }
 ```
+This defines a class with 3 variables (`name`, `grade`, `role`). Note: When a variable is part of a class, we call it a *field*.
+
+
+Now that we have a class, we can create an object. But before we do this, let's learn about the dot operator.
+We've already used it a few times. For example `System.out.println(...)` uses it twice.
+The dot operator means "access a part of this thing."
+
+Rule of thumb:
+* Left of `.` = the thing you have
+* Right of `.` = the field or function you want from that thing
+
+Examples:
+* `member.name` -> the `name` field on `member`
+* `member.role` -> the `role` field on `member`
+* `System.out.println(...)` -> chained access: `System` -> `out` -> `println(...)`
+
+
+Now, let's create our object:
 
 `Main.java`
 ```Java
 public class Main {
     public static void main(String[] args) {
+        // Create an Object called member, of type TeamMember
         TeamMember member = new TeamMember();
 
+        // Set the fields using the dot operator
         member.name = "Alex";
         member.grade = 9;
         member.role = "Programmer";
 
+        // Print the fields
         System.out.println(member.name);
         System.out.println(member.grade);
         System.out.println(member.role);
     }
 }
 ```
-
 What this does:
-* Defines a class with 3 variables (`name`, `grade`, `role`). Note: When a variable is part of a class, we call it a *field*.
 * Creates one object using `new TeamMember()`
 * Stores data in that object
 * Reads data back and prints it
