@@ -15,3 +15,4 @@ This assumes you've done at least some programming in another language, such as 
 - [Lesson 8: Constructors](lessons/lesson-8.md)
 - [Lesson 9: Functions in Classes](lessons/lesson-9.md)
 - [Lesson 10: Encapsulation](lessons/lesson-10.md)
+- [Wrap-Up Project (Lessons 1-10): Scouting App](lessons/lesson-wrapup-1-10.md)
