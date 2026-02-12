@@ -13,3 +13,4 @@ This assumes you've done at least some programming in another language, such as 
 - [Lesson 6: Arrays](lessons/lesson-6.md)
 - [Lesson 7: Classes and Objects](lessons/lesson-7.md)
 - [Lesson 8: Constructors](lessons/lesson-8.md)
+- [Lesson 9: Functions in Classes](lessons/lesson-9.md)
