@@ -17,7 +17,7 @@ This assumes you've done at least some programming in another language, such as 
 - [Lesson 9: Functions in Classes](lessons/lesson-9.md)
 - [Lesson 10: Encapsulation](lessons/lesson-10.md)
 - [Wrap-Up Project (Lessons 1-10): Scouting App](lessons/lesson-wrapup-1-10.md)
--
+
 ### Advanced Java Concepts
 - [Lesson 11: Composition and Dependency Passing](lessons/lesson-11.md)
 - [Lesson 12: Inheritance and Override](lessons/lesson-12.md)
