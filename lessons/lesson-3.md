@@ -3,7 +3,7 @@
 Now that you can read input, store data in variables, and print output, it's time to make programs that make decisions and repeat actions.
 ("Control flow" means the order your program runs instructions.)
 
-## Conditions (Expressions)
+## Conditions (and Expressions)
 
 Before `if` and loops, let's talk about conditions.
 
@@ -25,15 +25,17 @@ You will use these operators often when writing conditions:
 * `<=` less than or equal to
 * `>=` greater than or equal to
 
-You can also use standard arithmetic operators that we briefly talked about in Lesson 2:
+You can also use standard arithmetic operators inside conditions:
 * `+` add
 * `-` subtract 
 * `*` multiply
 * `/` divide
 
-You can also combine conditions:
+You can also use operators on conditions themselves:
 * `&&` and (both conditions must be true)
 * `||` or (at least one condition must be true)
+* `!` not (use it in front of a condition to invert the value)
+* `(` and `)` to control the order that conditions are evaluated
 
 Example:
 
